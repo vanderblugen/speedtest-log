@@ -1,8 +1,9 @@
 # speedtest-log
-This is a script that runs speedtest using python at regular intervals on a linux system and output to a log file and/or to google sheets using IFTTT.
-
-This information was thrown together for my enjoyment for personal use. 
-This has been tested on a Linux system already.  Use at your own risk.
+This is a script that
+  - Runs speedtest using python
+  - Can be scheduled to run at regular intervals (IE: cronjob)
+  - For use on a Linux system
+  - Output to a log file and/or to google sheets using IFTTT.
 
 ## Setup
 ### Verify software is installed
@@ -26,11 +27,13 @@ pip install speedtest-cli numpy requests
   - Use_IFTTT = True
   - Use_Local_Log = True
 - Log_Path folder needs to be updated and verify that the folder exists
+- Log_File will be created in Log_Path if it is not present, as long as permissions are properly set
 
 ## NOTES
 - If the script is going to be run as root, the python packages need to be installed under the root user
-- Log_File will be created if it is not present, as long as permissions are properly set
-- This works best when run as a cronjob.
+- This information was thrown together for my enjoyment for personal use.
+- This has been tested on a Linux system already.
+- I am not claiming to know anything about anything.  Use at your own risk.
 
 
 # If anyone wants to contribute please reach out
