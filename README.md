@@ -1,5 +1,5 @@
 # speedtest-log
-This is a script that
+This is a script that...
   - Runs speedtest using python
   - Can be scheduled to run at regular intervals (IE: cronjob)
   - For use on a Linux system
