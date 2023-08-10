@@ -9,8 +9,8 @@ from pathlib import Path
 import numpy as np
 
 # establish if how the script will be used
-Use_IFTTT = False
-Use_Local_Log = False
+Use_IFTTT = True
+Use_Local_Log = True
 
 # establish Log variables
 Log_Path = "/var/log/internetspeedcheck/"                       # path to the log file
