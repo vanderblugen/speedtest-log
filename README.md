@@ -22,6 +22,8 @@ pip install speedtest-cli numpy requests
 
 ## Finish Setup
 - Copy the python script to your system and update the variables as needed
+  -  [st-simple.py](st-simple.py) uploads just download rate, ping rate, and ping.
+  -  [st-all.py](st-all.py) uploads all the data that would need to be parsed in google-sheets in CSV format.
 - IFTTT_Event_Name and IFTTT_Key need to be updated appropriatly
 - Both IFTTT and Local Log can be disabled just update these variables and set appropriately to either true or false.
   - Use_IFTTT = True
