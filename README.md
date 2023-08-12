@@ -35,5 +35,9 @@ pip install speedtest-cli numpy requests
 - This has been tested on a Linux system already.
 - I am not claiming to know anything about anything.  Use at your own risk.
 
+- Here are some of the places I got the information for this.
+    - [https://github.com/sivel/speedtest-cli/wiki](https://github.com/sivel/speedtest-cli/wiki)
+    - [https://pypi.org/project/speedtest-cli/](https://pypi.org/project/speedtest-cli/)
+
 
 # If anyone wants to contribute please reach out
