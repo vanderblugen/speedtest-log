@@ -36,6 +36,7 @@ pip install speedtest-cli numpy requests
 - This information was thrown together for my enjoyment for personal use.
 - This has been tested on a Linux system already.
 - I am not claiming to know anything about anything.  Use at your own risk.
+- Working on an additional entry for using Google Sheets api without logging.
 
 - Here are some of the places I got the information for this.
     - [https://github.com/sivel/speedtest-cli/wiki](https://github.com/sivel/speedtest-cli/wiki)
